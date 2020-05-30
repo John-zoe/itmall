@@ -1,0 +1,16 @@
+org\notail\mall\utils\Md5Util.class
+org\notail\mall\common\PageBean.class
+org\notail\mall\common\Result.class
+org\notail\mall\web\filter\CharchaterFilter.class
+org\notail\mall\web\controller\LoginServlet.class
+org\notail\mall\utils\JDBCUtil.class
+org\notail\mall\pojo\CartItem.class
+org\notail\mall\pojo\Item.class
+org\notail\mall\pojo\Address.class
+org\notail\mall\pojo\Category.class
+org\notail\mall\pojo\News.class
+org\notail\mall\utils\UuidUtil.class
+org\notail\mall\pojo\Product.class
+org\notail\mall\pojo\Orders.class
+org\notail\mall\pojo\Member.class
+org\notail\mall\utils\JedisUtil.class
