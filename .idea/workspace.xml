@@ -2,721 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2720f7c8-5160-4fe3-b35c-2f323906fb2c" name="Default Changelist" comment="0x01_itmall">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/itmall_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/itmall_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/itmall.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alipay_sdk_alipay_sdk_java_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_10_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbutils_commons_dbutils_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_javax_servlet_jsp_api_2_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_47.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/notail/mall/common/PageBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/notail/mall/common/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/notail/mall/pojo/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/notail/mall/pojo/CartItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/notail/mall/pojo/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/notail/mall/pojo/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/notail/mall/pojo/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/notail/mall/pojo/News.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/notail/mall/pojo/Orders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/notail/mall/pojo/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/notail/mall/test/DbTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/notail/mall/utils/JDBCUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/notail/mall/utils/JedisUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/notail/mall/utils/Md5Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/notail/mall/utils/UuidUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/notail/mall/web/controller/LoginServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/notail/mall/web/filter/CharchaterFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/druid.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/jedis.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bottom.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/my.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/button_qq.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/logo-zx.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/r_phone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/r_qq.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/r_top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/r_wx.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/wx.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/07a3550e-710a-4896-b4cd-21ef25ebac46.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/0d4997c2-2040-4b76-9ecf-13775588d5ff.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/17a71f32-ea45-4599-be27-082015742d38.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/2919d2e3-af4f-4b87-87e3-426c7eb44a01.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/4221e98b-45f8-451a-9eff-f0f1673fd62a.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/53b8d760-2bc3-4da7-9c9d-fe0f052e1db1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/63180b58-d7ee-4acc-b25d-9d4e9c660c7d.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/69c921d4-e4f3-404a-b22e-7fab30cf5556.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/7d607646-016d-4ac5-89ba-58a1a129aaa3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/8a4baf94-84f8-418c-b7f8-059990801283.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/8d79d5c6-79bf-4aaf-891b-9a05363b0746.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/962b9bda-4cba-4cf9-9b42-4b4b042dfa96.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/993162db-f0ae-4cc2-938d-4f8c975b51f6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/ac015165-dd01-4e19-8e64-533023551452.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/alienware-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/alienware-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/alienware-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/alienware.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/banner_ad.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/bingxiang01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/bingxiang0101.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/bingxiang0102.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/bingxiang0103.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/bingxiang0104.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/bingxiang0105.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/chaopin01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/chaopin0101.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/chaopin0102.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/chaopin0103.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/chaopin0104.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/chaopin0105.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/chaopin0106.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/d07c2de7-36d9-4da4-b4c8-67c21682bccf.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/d894eec2-412e-47f2-b11f-6deb05824ad7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/dajiadian01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/dajiadian0101.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/dajiadian0102.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/dajiadian0103.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/dajiadian0104.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/dc5e2f57-7178-4a3b-adaf-51ca78266ff3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/dell-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/dell-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/dell-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/dell-desktop-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/dell-desktop-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/dell-desktop.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/dell.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/detail-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/detail-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/detail-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/detail-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/e513d306-131d-4ea9-960a-b6142b0aee73.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/huawei.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/hw-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/ipad-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/ipad-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/ipad-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/ipad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/iphone6s.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/kongtiao01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/kongtiao0101.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/kongtiao0102.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/kongtiao0103.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/kongtiao0104.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/kongtiao0105.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/lenovo-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/lenovo-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/lenovo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/letv-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/letv-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/letv-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/letv.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/mbp-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/mbp-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/mbp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/me1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/me2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/me3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/me4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/meinote3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/mi-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/mi-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/mi-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/mi-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/mi-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/mi-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/mipad-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/mipad-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/mipad-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/mipad-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/mipad-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/mipad.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/n1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/n2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/n3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/n4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/nokia.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/sheyingshexiang01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/sheyingshexiang0101.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/sheyingshexiang0102.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/sheyingshexiang0103.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/sheyingshexiang0104.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/sliding-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/sliding-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/sliding-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/thinkpad-x1-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/thinkpad-x1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/uniscope.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/us-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/us-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/us-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/us-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/us-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/xiaojiadian01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/xiaojiadian0101.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/xiaojiadian0102.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/xiaojiadian0103.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/xiaojiadian02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/xiaomi.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/xiyiji01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/xiyiji0101.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/xiyiji0102.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/xiyiji0103.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/xiyiji0104.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/xxx.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/yingyinyuele0103.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/yingyinyule01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/yingyinyule0101.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/yingyinyule0102.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/yingyinyule02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/yingyinyule0201.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/yingyinyule0202.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/yingyinyule0203.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/yingyinyule03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/yingyinyule0301.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/yingyinyule0302.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/yingyinyule0303.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/include.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.scrollUp.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/my.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/member_login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/member_register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/ckeditor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/ckeditor.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/sample/css/sample.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/sample/img/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/sample/img/github.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/sample/img/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/sample/img/umbrellas.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/translations/ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/translations/ast.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/translations/az.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/translations/bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/translations/ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/translations/cs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/translations/da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/translations/de-ch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/translations/de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/translations/el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/translations/en-au.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/translations/eo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/translations/es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/translations/et.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/translations/eu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/translations/fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/translations/fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/translations/fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/translations/gl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/translations/gu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/translations/he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/translations/hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/translations/hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/translations/id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/translations/it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/translations/ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/translations/km.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/translations/kn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/translations/ko.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/translations/ku.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/translations/lv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/translations/nb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/translations/ne.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/translations/nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/translations/no.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/translations/oc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/translations/pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/translations/pt-br.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/translations/pt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/translations/ro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/translations/ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/translations/si.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/translations/sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/translations/sq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/translations/sr-latn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/translations/sr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/translations/sv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/translations/tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/translations/tt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/translations/ug.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/translations/uk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/translations/vi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/translations/zh-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/translations/zh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/css/zui-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/css/zui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/fonts/zenicon.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/fonts/zenicon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/fonts/zenicon.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/fonts/zenicon.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/js/zui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/js/zui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/board/zui.board.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/board/zui.board.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/board/zui.board.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/board/zui.board.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/calendar/zui.calendar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/calendar/zui.calendar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/calendar/zui.calendar.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/calendar/zui.calendar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/chart/chart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/chart/chart.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/chosen/chosen.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/chosen/chosen.icons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/chosen/chosen.icons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/chosen/chosen.icons.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/chosen/chosen.icons.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/chosen/chosen.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/chosen/chosen.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/chosen/chosen.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/datatable/zui.datatable.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/datatable/zui.datatable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/datatable/zui.datatable.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/datatable/zui.datatable.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/datetimepicker/datetimepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/datetimepicker/datetimepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/datetimepicker/datetimepicker.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/datetimepicker/datetimepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/droppable/droppable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/droppable/droppable.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/hotkey/hotkey.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/hotkey/hotkey.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/ieonly/excanvas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/ieonly/html5shiv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/ieonly/respond.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/imgcutter/zui.imgcutter.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/imgcutter/zui.imgcutter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/imgcutter/zui.imgcutter.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/imgcutter/zui.imgcutter.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/jquery/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/kindeditor/kindeditor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/kindeditor/kindeditor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/kindeditor/kindeditor.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/kindeditor/kindeditor.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/kindeditor/lang/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/kindeditor/lang/zh_CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/kindeditor/lang/zh_TW.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/kindeditor/themes/default/default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/kindeditor/themes/default/default.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/kindeditor/themes/default/default.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/kindeditor/themes/default/gray.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/migrate/migrate1.2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/migrate/migrate1.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/prettify/lang-apollo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/prettify/lang-basic.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/prettify/lang-clj.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/prettify/lang-css.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/prettify/lang-dart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/prettify/lang-erlang.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/prettify/lang-go.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/prettify/lang-hs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/prettify/lang-lisp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/prettify/lang-llvm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/prettify/lang-lua.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/prettify/lang-matlab.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/prettify/lang-ml.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/prettify/lang-mumps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/prettify/lang-n.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/prettify/lang-pascal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/prettify/lang-proto.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/prettify/lang-r.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/prettify/lang-rd.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/prettify/lang-scala.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/prettify/lang-sql.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/prettify/lang-tcl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/prettify/lang-tex.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/prettify/lang-vb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/prettify/lang-vhdl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/prettify/lang-wiki.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/prettify/lang-xq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/prettify/lang-yaml.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/prettify/prettify.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/prettify/prettify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/zui/lib/prettify/run_prettify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/top.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/druid.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/jedis.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/notail/mall/common/PageBean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/notail/mall/common/Result.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/notail/mall/pojo/Address.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/notail/mall/pojo/CartItem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/notail/mall/pojo/Category.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/notail/mall/pojo/Item.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/notail/mall/pojo/Member.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/notail/mall/pojo/News.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/notail/mall/pojo/Orders.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/notail/mall/pojo/Product.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/notail/mall/test/DbTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/notail/mall/utils/JDBCUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/notail/mall/utils/JedisUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/notail/mall/utils/Md5Util.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/notail/mall/utils/UuidUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/notail/mall/web/controller/LoginServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/notail/mall/web/filter/CharchaterFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT.war" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/WEB-INF/classes/druid.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/WEB-INF/classes/jedis.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/WEB-INF/classes/org/notail/mall/common/PageBean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/WEB-INF/classes/org/notail/mall/common/Result.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/WEB-INF/classes/org/notail/mall/pojo/Address.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/WEB-INF/classes/org/notail/mall/pojo/CartItem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/WEB-INF/classes/org/notail/mall/pojo/Category.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/WEB-INF/classes/org/notail/mall/pojo/Item.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/WEB-INF/classes/org/notail/mall/pojo/Member.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/WEB-INF/classes/org/notail/mall/pojo/News.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/WEB-INF/classes/org/notail/mall/pojo/Orders.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/WEB-INF/classes/org/notail/mall/pojo/Product.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/WEB-INF/classes/org/notail/mall/utils/JDBCUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/WEB-INF/classes/org/notail/mall/utils/JedisUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/WEB-INF/classes/org/notail/mall/utils/Md5Util.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/WEB-INF/classes/org/notail/mall/utils/UuidUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/WEB-INF/classes/org/notail/mall/web/filter/CharchaterFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/WEB-INF/lib/alipay-sdk-java-3.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/WEB-INF/lib/commons-beanutils-1.9.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/WEB-INF/lib/commons-collections-3.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/WEB-INF/lib/commons-dbutils-1.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/WEB-INF/lib/commons-pool2-2.4.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/WEB-INF/lib/druid-1.1.18.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/WEB-INF/lib/hamcrest-core-1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.9.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.9.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.9.10.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/WEB-INF/lib/jedis-3.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/WEB-INF/lib/junit-4.12.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.47.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.22.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/bottom.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/css/my.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/images/button_qq.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/images/logo-zx.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/images/r_phone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/images/r_qq.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/images/r_top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/images/r_wx.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/images/wx.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/07a3550e-710a-4896-b4cd-21ef25ebac46.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/0d4997c2-2040-4b76-9ecf-13775588d5ff.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/17a71f32-ea45-4599-be27-082015742d38.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/2919d2e3-af4f-4b87-87e3-426c7eb44a01.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/4221e98b-45f8-451a-9eff-f0f1673fd62a.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/53b8d760-2bc3-4da7-9c9d-fe0f052e1db1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/63180b58-d7ee-4acc-b25d-9d4e9c660c7d.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/69c921d4-e4f3-404a-b22e-7fab30cf5556.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/7d607646-016d-4ac5-89ba-58a1a129aaa3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/8a4baf94-84f8-418c-b7f8-059990801283.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/8d79d5c6-79bf-4aaf-891b-9a05363b0746.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/962b9bda-4cba-4cf9-9b42-4b4b042dfa96.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/993162db-f0ae-4cc2-938d-4f8c975b51f6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/ac015165-dd01-4e19-8e64-533023551452.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/alienware-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/alienware-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/alienware-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/alienware.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/banner_ad.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/bingxiang01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/bingxiang0101.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/bingxiang0102.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/bingxiang0103.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/bingxiang0104.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/bingxiang0105.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/chaopin01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/chaopin0101.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/chaopin0102.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/chaopin0103.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/chaopin0104.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/chaopin0105.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/chaopin0106.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/d07c2de7-36d9-4da4-b4c8-67c21682bccf.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/d894eec2-412e-47f2-b11f-6deb05824ad7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/dajiadian01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/dajiadian0101.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/dajiadian0102.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/dajiadian0103.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/dajiadian0104.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/dc5e2f57-7178-4a3b-adaf-51ca78266ff3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/dell-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/dell-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/dell-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/dell-desktop-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/dell-desktop-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/dell-desktop.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/dell.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/detail-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/detail-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/detail-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/detail-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/e513d306-131d-4ea9-960a-b6142b0aee73.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/huawei.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/hw-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/ipad-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/ipad-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/ipad-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/ipad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/iphone6s.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/kongtiao01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/kongtiao0101.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/kongtiao0102.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/kongtiao0103.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/kongtiao0104.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/kongtiao0105.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/lenovo-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/lenovo-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/lenovo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/letv-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/letv-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/letv-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/letv.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/mbp-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/mbp-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/mbp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/me1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/me2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/me3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/me4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/meinote3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/mi-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/mi-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/mi-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/mi-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/mi-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/mi-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/mipad-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/mipad-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/mipad-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/mipad-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/mipad-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/mipad.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/n1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/n2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/n3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/n4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/nokia.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/sheyingshexiang01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/sheyingshexiang0101.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/sheyingshexiang0102.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/sheyingshexiang0103.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/sheyingshexiang0104.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/sliding-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/sliding-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/sliding-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/thinkpad-x1-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/thinkpad-x1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/uniscope.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/us-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/us-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/us-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/us-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/us-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/xiaojiadian01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/xiaojiadian0101.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/xiaojiadian0102.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/xiaojiadian0103.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/xiaojiadian02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/xiaomi.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/xiyiji01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/xiyiji0101.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/xiyiji0102.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/xiyiji0103.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/xiyiji0104.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/xxx.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/yingyinyuele0103.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/yingyinyule01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/yingyinyule0101.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/yingyinyule0102.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/yingyinyule02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/yingyinyule0201.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/yingyinyule0202.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/yingyinyule0203.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/yingyinyule03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/yingyinyule0301.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/yingyinyule0302.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/img/yingyinyule0303.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/js/include.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/js/jquery.scrollUp.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/js/my.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/member_login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/member_register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/ckeditor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/ckeditor.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/sample/css/sample.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/sample/img/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/sample/img/github.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/sample/img/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/sample/img/umbrellas.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/translations/ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/translations/ast.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/translations/az.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/translations/bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/translations/ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/translations/cs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/translations/da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/translations/de-ch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/translations/de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/translations/el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/translations/en-au.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/translations/eo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/translations/es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/translations/et.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/translations/eu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/translations/fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/translations/fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/translations/fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/translations/gl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/translations/gu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/translations/he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/translations/hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/translations/hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/translations/id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/translations/it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/translations/ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/translations/km.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/translations/kn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/translations/ko.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/translations/ku.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/translations/lv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/translations/nb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/translations/ne.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/translations/nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/translations/no.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/translations/oc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/translations/pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/translations/pt-br.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/translations/pt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/translations/ro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/translations/ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/translations/si.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/translations/sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/translations/sq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/translations/sr-latn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/translations/sr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/translations/sv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/translations/tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/translations/tt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/translations/ug.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/translations/uk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/translations/vi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/translations/zh-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/ckeditor/translations/zh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/css/zui-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/css/zui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/fonts/zenicon.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/fonts/zenicon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/fonts/zenicon.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/fonts/zenicon.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/js/zui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/js/zui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/board/zui.board.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/board/zui.board.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/board/zui.board.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/board/zui.board.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/calendar/zui.calendar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/calendar/zui.calendar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/calendar/zui.calendar.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/calendar/zui.calendar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/chart/chart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/chart/chart.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/chosen/chosen.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/chosen/chosen.icons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/chosen/chosen.icons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/chosen/chosen.icons.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/chosen/chosen.icons.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/chosen/chosen.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/chosen/chosen.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/chosen/chosen.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/datatable/zui.datatable.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/datatable/zui.datatable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/datatable/zui.datatable.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/datatable/zui.datatable.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/datetimepicker/datetimepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/datetimepicker/datetimepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/datetimepicker/datetimepicker.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/datetimepicker/datetimepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/droppable/droppable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/droppable/droppable.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/hotkey/hotkey.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/hotkey/hotkey.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/ieonly/excanvas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/ieonly/html5shiv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/ieonly/respond.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/imgcutter/zui.imgcutter.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/imgcutter/zui.imgcutter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/imgcutter/zui.imgcutter.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/imgcutter/zui.imgcutter.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/jquery/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/kindeditor/kindeditor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/kindeditor/kindeditor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/kindeditor/kindeditor.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/kindeditor/kindeditor.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/kindeditor/lang/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/kindeditor/lang/zh_CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/kindeditor/lang/zh_TW.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/kindeditor/themes/default/default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/kindeditor/themes/default/default.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/kindeditor/themes/default/default.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/kindeditor/themes/default/gray.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/migrate/migrate1.2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/migrate/migrate1.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/prettify/lang-apollo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/prettify/lang-basic.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/prettify/lang-clj.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/prettify/lang-css.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/prettify/lang-dart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/prettify/lang-erlang.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/prettify/lang-go.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/prettify/lang-hs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/prettify/lang-lisp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/prettify/lang-llvm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/prettify/lang-lua.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/prettify/lang-matlab.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/prettify/lang-ml.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/prettify/lang-mumps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/prettify/lang-n.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/prettify/lang-pascal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/prettify/lang-proto.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/prettify/lang-r.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/prettify/lang-rd.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/prettify/lang-scala.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/prettify/lang-sql.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/prettify/lang-tcl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/prettify/lang-tex.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/prettify/lang-vb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/prettify/lang-vhdl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/prettify/lang-wiki.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/prettify/lang-xq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/prettify/lang-yaml.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/prettify/prettify.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/prettify/prettify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/plugins/zui/lib/prettify/run_prettify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/mall-1.0-SNAPSHOT/top.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tomcat/conf/logging.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tomcat/conf/tomcat-users.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tomcat/conf/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-05-30" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/notail/mall/dao/MemberDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/notail/mall/dao/impl/MemberDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/notail/mall/service/MemberService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/notail/mall/service/impl/MemberServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/notail/mall/utils/DateUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/notail/mall/web/controller/BaseServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/notail/mall/web/controller/MemberServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-05-31" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/notail/mall/pojo/Member.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/notail/mall/pojo/Member.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/notail/mall/test/DbTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/notail/mall/test/DbTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/notail/mall/web/controller/LoginServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -726,6 +25,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -771,18 +71,24 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.notail.mall.dao.impl" />
+      <recent name="org.notail.mall.dao" />
+      <recent name="org.notail.mall.service.impl" />
+      <recent name="org.notail.mall.service" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Users\Jogh\IdeaProjects\itmall\src\main\webapp" />
       <recent name="D:\Users\Jogh\IdeaProjects\itmall\src\main\resources" />
       <recent name="D:\Users\Jogh\IdeaProjects\itmall\src\main\java\org\notail\mall\utils" />
       <recent name="D:\Users\Jogh\IdeaProjects\itmall\src\main\java\org\notail\mall\pojo" />
       <recent name="D:\Users\Jogh\IdeaProjects\itmall\src\main\java\org\notail\mall\web\filter" />
-      <recent name="D:\Users\Jogh\IdeaProjects\itmall\src\main\java\org\notail\mall\web\controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DbTest">
+  <component name="RunManager" selected="Maven.mall [tomcat7:run]">
     <configuration name="DbTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.notail.mall.test.DbTest" />
       <module name="itmall" />
@@ -823,8 +129,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DbTest" />
         <item itemvalue="Maven.mall [tomcat7:run]" />
+        <item itemvalue="Application.DbTest" />
       </list>
     </recent_temporary>
   </component>
@@ -852,8 +158,25 @@
       <updated>1590802414532</updated>
       <workItem from="1590802420514" duration="9800000" />
       <workItem from="1590818612521" duration="9865000" />
-      <workItem from="1590846668323" duration="632000" />
+      <workItem from="1590846668323" duration="3843000" />
+      <workItem from="1590886176584" duration="21547000" />
+      <workItem from="1590928566306" duration="3026000" />
     </task>
+    <task id="LOCAL-00001" summary="0x01_itmall">
+      <created>1590847483009</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590847483009</updated>
+    </task>
+    <task id="LOCAL-00002" summary="0x01_itmall">
+      <created>1590932036617</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1590932036618</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -868,46 +191,74 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="137" y="27" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1590810720069" />
-    <state x="440" y="75" key="#com.intellij.ide.util.MemberChooser" timestamp="1590830614257">
+    <state x="440" y="75" key="#com.intellij.ide.util.MemberChooser" timestamp="1590892947962">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="440" y="75" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1590830614257" />
+    <state x="440" y="75" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1590892947962" />
+    <state x="413" y="150" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1590886591084">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="413" y="150" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.738@0.0.1366.738" timestamp="1590886591084" />
     <state x="510" y="284" key="#com.intellij.javaee.module.view.web.EditWebRootDialog" timestamp="1590805196296">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="510" y="284" key="#com.intellij.javaee.module.view.web.EditWebRootDialog/0.0.1366.738@0.0.1366.738" timestamp="1590805196296" />
-    <state x="236" y="0" key="CommitChangelistDialog2" timestamp="1590847470816">
+    <state x="236" y="0" key="CommitChangelistDialog2" timestamp="1590932031635">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="236" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1590847470815" />
+    <state x="236" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1590932031635" />
     <state x="501" y="113" key="FileChooserDialogImpl" timestamp="1590846740354">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="501" y="113" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1590846740354" />
-    <state width="1323" height="106" key="GridCell.Tab.0.bottom" timestamp="1590831740264">
+    <state x="558" y="264" width="274" height="282" key="Github.ShareDialog" timestamp="1590932196013">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="106" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1590831740264" />
-    <state width="1323" height="106" key="GridCell.Tab.0.center" timestamp="1590831740264">
+    <state x="558" y="264" width="274" height="282" key="Github.ShareDialog/0.0.1366.738@0.0.1366.738" timestamp="1590932196013" />
+    <state width="1323" height="305" key="GridCell.Tab.0.bottom" timestamp="1590931366809">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="106" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1590831740264" />
-    <state width="1323" height="106" key="GridCell.Tab.0.left" timestamp="1590831740264">
+    <state width="1323" height="305" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1590931366809" />
+    <state width="1323" height="305" key="GridCell.Tab.0.center" timestamp="1590931366809">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="106" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1590831740264" />
-    <state width="1323" height="106" key="GridCell.Tab.0.right" timestamp="1590831740264">
+    <state width="1323" height="305" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1590931366809" />
+    <state width="1323" height="305" key="GridCell.Tab.0.left" timestamp="1590931366808">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="106" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1590831740264" />
-    <state x="201" y="0" key="SettingsEditor" timestamp="1590830960705">
+    <state width="1323" height="305" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1590931366808" />
+    <state width="1323" height="305" key="GridCell.Tab.0.right" timestamp="1590931366809">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="201" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1590830960705" />
-    <state x="375" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1590802420622">
+    <state width="1323" height="305" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1590931366809" />
+    <state width="1323" height="227" key="GridCell.Tab.1.bottom" timestamp="1590918635010">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="375" y="196" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1590802420622" />
+    <state width="1323" height="227" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1590918635010" />
+    <state width="1323" height="227" key="GridCell.Tab.1.center" timestamp="1590918635010">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="227" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1590918635010" />
+    <state width="1323" height="227" key="GridCell.Tab.1.left" timestamp="1590918635010">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="227" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1590918635010" />
+    <state width="1323" height="227" key="GridCell.Tab.1.right" timestamp="1590918635010">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="227" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1590918635010" />
+    <state x="201" y="0" key="SettingsEditor" timestamp="1590931868686">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="201" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1590931868686" />
+    <state x="375" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1590928572695">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="375" y="196" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1590928572695" />
+    <state x="339" y="165" width="672" height="677" key="run.anything.popup" timestamp="1590914996900">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="339" y="165" width="672" height="677" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1590914996900" />
     <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1590802577356">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
