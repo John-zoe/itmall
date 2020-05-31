@@ -4,6 +4,7 @@ import java.util.Date;
 
 public class Member implements java.io.Serializable{
 
+
     private Integer id;
     private String mobile;
     private String pwd;

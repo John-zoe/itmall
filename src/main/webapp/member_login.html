@@ -117,22 +117,22 @@
 				 if(checkPhone()&&checkPwd()){   //验证通过，提交数据到后台
 					 //向服务发送ajax请求提效手机号密码
 					 $.ajax({
-						 url:"/loginServlet",    //处理请求的Servlet的地址,
+						 url:"/member/login",    //处理请求的Servlet的地址,
 						 data:{"mobile":$("#mobile").val(),"pwd":$("#pwd").val()},   //传给Servlet的数据,
 						 dataType:"json",		//将服务器返回的数据当作json来进行处理
 						 type:"post",   //请求方式是get还是post请求
 						 success:function(data){    //data就是服务器响应回来的数据 {"flag":true,"message":"登陆成功"}  {"flag":false,"message":"登陆失败"}
 
 							 if(data.flag==true){
-								 alert(data.msg);
+							 	//跳转到主页
+								 window.location.href="/main.html";
 							 }else{
-								 alert(data.msg);
+							 	$("#formError").html(data.msg);
 							 }
 						 }
 					 })
-
 				 }else{
-					 $("#formError").html("用户名或密码出错");
+					 $("#formError").html("用户名或密码格式出错");
 				 }
 
 			 })
