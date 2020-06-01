@@ -44,9 +44,8 @@
 								<button type="button" class="btn btn-primary btn-wider btn-lg" id="btn_login">登录</button>
 								&nbsp; &nbsp;
 								<a href="/member_register.html">注册</a>
-								&nbsp; &nbsp;
-								<a href="/resetpassword.html">忘记密码</a>
 								&nbsp;&nbsp;
+								<a href="/resetpassword.html">忘记密码</a>
 							</form>
 						</div>
 					</div>
@@ -67,78 +66,80 @@
 	 <script src="/js/include.js"></script>
 	 <script src="/js/my.js"></script>
 
-	 <script>
-		 //验证手机号
-		 function checkPhone() {
-			 //获取手机号码
-			 var phone=$("#mobile").val();
-			 //使用正则定义手机校验规则
-			 var phoneReg= /^((13[0-9])|(17[0-1,6-8])|(15[^4,\\D])|(18[0-9]))\d{8}$/;
-			 //对手机号进行校验
-			 if(phoneReg.test(phone)){
-				 //给手机号的边框添加绿色的样式
-				 $("#mobile").css("border","1px solid green");
-				 return true;
-			 }else{
-				 //给手机号的边框添加红色的样式
-				 $("#mobile").css("border","1px solid red");
-				 return false;
-			 }
+	<script>
+		//验证手机号
+		function checkPhone() {
+			//获取手机号码
+			var phone=$("#mobile").val();
+			//使用正则定义手机校验规则
+			var phoneReg= /^((13[0-9])|(17[0-1,6-8])|(15[^4,\\D])|(18[0-9]))\d{8}$/;
+			//对手机号进行校验
+			if(phoneReg.test(phone)){
+				//给手机号的边框添加绿色的样式
+				$("#mobile").css("border","1px solid green");
+				return true;
+			}else{
+				//给手机号的边框添加红色的样式
+				$("#mobile").css("border","1px solid red");
+				return false;
+			}
 
-		 }
+		}
 
-		 //验证密码(长度必须是6-18位)
-		 function checkPwd(){
-			 var pwd = $("#pwd").val();
-			 if(pwd.length>=6 && pwd.length<=18){
-				 $("#pwd").css("border","1px solid green");
-				 return true;
-			 }else{
-				 $("#pwd").css("border","1px solid red");
-				 return false;
-			 }
-		 }
+		//验证密码(长度必须是6-18位)
+		function checkPwd(){
+			var pwd = $("#pwd").val();
+			if(pwd.length>=6 && pwd.length<=18){
+				$("#pwd").css("border","1px solid green");
+				return true;
+			}else{
+				$("#pwd").css("border","1px solid red");
+				return false;
+			}
+		}
 
 
-		 $(function(){			//jquery的入口函数，表示整个页面加载完毕后执行
+		$(function(){			//jquery的入口函数，表示整个页面加载完毕后执行
 
-			 //为手机输入框添加离焦事件
-			 $("#mobile").blur(function(){
-				 checkPhone();
-			 })
+			//为手机输入框添加离焦事件
+			$("#mobile").blur(function(){
+				checkPhone();
+			})
 
-			 //为密码框添加记焦事件
-			 $("#pwd").blur(function(){
-				 checkPwd()
-			 });
+			//为密码框添加记焦事件
+			$("#pwd").blur(function(){
+				checkPwd()
+			});
 
-			 //为登陆按钮添加点击事件
-			 $("#btn_login").click(function(){
-				 if(checkPhone()&&checkPwd()){   //验证通过，提交数据到后台
-					 //向服务发送ajax请求提效手机号密码
-					 $.ajax({
-						 url:"/member/login",    //处理请求的Servlet的地址,
-						 data:{"mobile":$("#mobile").val(),"pwd":$("#pwd").val()},   //传给Servlet的数据,
-						 dataType:"json",		//将服务器返回的数据当作json来进行处理
-						 type:"post",   //请求方式是get还是post请求
-						 success:function(data){    //data就是服务器响应回来的数据 {"flag":true,"message":"登陆成功"}  {"flag":false,"message":"登陆失败"}
+			//为登陆按钮添加点击事件
+			$("#btn_login").click(function(){
+				if(checkPhone()&&checkPwd()){   //验证通过，提交数据到后台
+					//向服务发送ajax请求提效手机号密码
+					$.ajax({
+						url:"/member/login",    //处理请求的Servlet的地址,
+						data:{"mobile":$("#mobile").val(),"pwd":$("#pwd").val()},   //传给Servlet的数据,
+						dataType:"json",		//将服务器返回的数据当作json来进行处理
+						type:"post",   //请求方式是get还是post请求
+						success:function(data){    //data就是服务器响应回来的数据 {"flag":true,"message":"登陆成功"}  {"flag":false,"message":"登陆失败"}
 
-							 if(data.flag==true){
-							 	//跳转到主页
-								 window.location.href="/main.html";
-							 }else{
-							 	$("#formError").html(data.msg);
-							 }
-						 }
-					 })
-				 }else{
-					 $("#formError").html("用户名或密码格式出错");
-				 }
+							if(data.flag==true){
+								//登录成功之后跳转到购物系统的首页
+								window.location.href="/main.html";
+							}else{
+								$("#formError").html(data.msg);
+							}
+						}
+					})
 
-			 })
-		 })
+				}else{
+					$("#formError").html("用户名或密码出错");
+				}
 
-	 </script>
-	
+			})
+		})
+
+	</script>
+
+
 </body>
 </html>

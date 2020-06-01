@@ -1,5 +1,8 @@
 package org.notail.mall.web.controller;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -31,6 +34,22 @@ public class BaseServlet extends HttpServlet {
             e.printStackTrace();
         }
 
+    }
+
+    public void writeJsonAsString(HttpServletResponse resp, Object object){
+        resp.setContentType("application/json");
+        ObjectMapper mapper = new ObjectMapper();
+        String json = null;
+        try {
+            json = mapper.writeValueAsString(object);
+        } catch (JsonProcessingException e) {
+            e.printStackTrace();
+        }
+        try {
+            resp.getWriter().print(json);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
 }

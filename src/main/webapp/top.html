@@ -51,8 +51,8 @@
     <div id="navbar" class="navbar navbar-inverse">
         <div class="wrapper row">
             <ul class="nav navbar-nav col-xs-12" id="nav">
-                <li><a href="/main.html">首页</a></li>
-                <li><a href="/about.html">关于我们</a></li>
+               <!-- <li><a href="/main.html">首页</a></li>
+                <li><a href="/about.html">关于我们</a></li>-->
             </ul>
         </div>
     </div>
@@ -94,6 +94,24 @@
                         }
                     }
                 })
+        })
+
+        //页面加载完毕后立即发送ajax请求，获取分类信息
+        $.ajax({
+            url:"/category/getNav",
+            type:"get",
+            dataType:"json",
+            success:function (data) {  //data:{flag:true,msg:"",data:[{id:1 ,name:手机, alias:shouji},{},{}]}
+                var contentHTML='<li><a href="/main.html">首页</a></li>';
+
+                for(var i=0; i<data.data.length; i++){
+                    var category = data.data[i];
+                    contentHTML+='<li><a href="/product_list.html?cate_id='+category.id+'">'+category.name+'</a></li>';
+                }
+
+                contentHTML+='<li><a href="/about.html">关于我们</a></li>';
+                $("#nav").html(contentHTML);
+            }
         })
 
     })
