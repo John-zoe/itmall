@@ -1,6 +1,7 @@
 package org.notail.mall.dao.impl;
 
 import org.apache.commons.dbutils.QueryRunner;
+import org.apache.commons.dbutils.handlers.BeanHandler;
 import org.apache.commons.dbutils.handlers.BeanListHandler;
 import org.apache.commons.dbutils.handlers.ScalarHandler;
 import org.notail.mall.dao.ProductDao;
@@ -36,5 +37,17 @@ public class ProductDaoImpl implements ProductDao {
             e.printStackTrace();
         }
         return null;
+    }
+
+    @Override
+    public Product selectProductById(int productId) {
+        Product product = null;
+        String sql = "select * from product where id = ?";
+        try {
+            product = runner.query(sql, new BeanHandler<>(Product.class), productId);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return product;
     }
 }

@@ -178,12 +178,12 @@
                     var product= data.list[i];
                     contentHtml+='            <div class="col-xs-2">\n' +
                         '                <div class="card">\n' +
-                        '                    <a href="/product_detail?id='+product.id+'" target="_blank">\n' +
+                        '                    <a href="/product_detail.html?productId='+product.id+'" target="_blank">\n' +
                         '                        <img src="/img/'+product.thumbnail+'" alt="" />\n' +
                         '                    </a>\n' +
                         '                    <div class="card-heading">\n' +
                         '                        <span class="pull-right price">￥'+product.price+'</span>\n' +
-                        '                        <a href="/product_detail?id='+product.id+'" target="_blank">'+product.name+'</a>\n' +
+                        '                        <a href="/product_detail.html?productId'+product.id+'" target="_blank">'+product.name+'</a>\n' +
                         '                    </div>\n' +
                         '                </div>\n' +
                         '            </div>';
@@ -197,7 +197,34 @@
                 $("#totalPage").html(data.totalPage);
                 $("#currentPage").html(data.currentPage);
 
-                var pageHTML=""
+                //每次显示10页数字 从7开始变化
+                var start;
+                var end;
+                if(data.totalPage<=10){
+                    start=1;
+                    end=totalPage;
+                }
+                else{
+                    start=data.currentPage-5;
+                    end=data.currentPage+4;
+
+                    if(start<1){
+                        start=1;
+                        end=10;
+                    }
+
+                    if(end>data.totalPage){
+                        end=data.totalPage;
+                        start=end-9;
+                    }
+                }
+
+                var pageHTML="";
+                pageHTML+='<li onclick="load('+cate_id+','+1+','+pageSize+')"><a href="javascript:void(0)">首页</a></li>';
+                if(data.currentPage>1){
+                    pageHTML+='<li onclick="load('+cate_id+','+(data.currentPage-1)+','+pageSize+')"><a href="javascript:void(0)">上一页</a></li>';
+                }
+
                 for(var i=1; i<=data.totalPage;i++){
                     if(i==data.currentPage){  //设置高亮
                         pageHTML+=' <li class="active" onclick="load('+cate_id+','+i+','+pageSize+')"><a href="javascript:void(0)">'+i+'</a></li>';
@@ -206,6 +233,10 @@
                     }
 
                 }
+                if(data.currentPage<data.totalPage){
+                    pageHTML+='<li onclick="load('+cate_id+','+(data.currentPage+1)+','+pageSize+')"><a href="javascript:void(0)">下一页</a></li>';
+                }
+                pageHTML+='<li onclick="load('+cate_id+','+(data.totalPage)+','+pageSize+')"><a href="javascript:void(0)">尾页</a></li>';
                 $("#pageNav").html(pageHTML);
 
                 //显示分页结束

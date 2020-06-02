@@ -8,4 +8,6 @@ public interface ProductDao {
     long selectTotalCount(int cateId);
 
     List<Product> selectByPage(int cateId, int start, int pageSize);
+
+    Product selectProductById(int productId);
 }

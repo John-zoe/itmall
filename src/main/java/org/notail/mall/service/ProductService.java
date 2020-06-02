@@ -7,4 +7,6 @@ import java.util.List;
 
 public interface ProductService {
     PageBean<Product> loadPage(int cateId, int currentPage, int pageSize);
+
+    Product loadDetail(int productId);
 }

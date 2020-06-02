@@ -47,4 +47,17 @@ public class ProductServlet extends BaseServlet{
 
     }
 
+    public void getDetail(HttpServletRequest req, HttpServletResponse resp){
+
+        String temp = req.getParameter("productId");
+        int productId = Integer.parseInt(temp);
+
+        Product product = service.loadDetail(productId);
+
+        Result result = new Result(true, product, "load detail");
+
+        writeJsonAsString(resp, result);
+
+    }
+
 }

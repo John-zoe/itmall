@@ -19,6 +19,16 @@ public class ProductServiceImpl implements ProductService {
         //获取总页数
         long totalPage = totalCount%pageSize==0?totalCount/pageSize:totalCount/pageSize+1;
 
+
+
+        if(currentPage>totalPage){    //如果用户传过来的页数大于了总页数，则让当前页变为总页数
+            currentPage=Integer.parseInt(totalPage+"");
+        }
+
+        if(currentPage<=0){    //如果用户传过来的页数小于了1,则让当前页变为1
+            currentPage=1;
+        }
+
         //获取一个存有分页商品的集合
         //将当前页转换成一个起始位置
         int start = (currentPage-1)*pageSize;
@@ -34,5 +44,10 @@ public class ProductServiceImpl implements ProductService {
 
         return pageBean;
 
+    }
+
+    @Override
+    public Product loadDetail(int productId) {
+        return dao.selectProductById(productId);
     }
 }
