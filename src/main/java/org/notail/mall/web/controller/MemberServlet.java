@@ -108,8 +108,6 @@ public class MemberServlet extends BaseServlet {
         result.setData(member);
 
         //转换成json
-        String s = mapper.writeValueAsString(result);
-
-        resp.getWriter().print(s);
+        writeJsonAsString(resp, result);
     }
 }

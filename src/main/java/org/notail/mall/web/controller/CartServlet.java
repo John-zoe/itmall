@@ -19,7 +19,7 @@ import java.util.List;
 public class CartServlet extends BaseServlet {
     ProductService service = new ProductServiceImpl();
 
-    public void setSession(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException{
+    public void setSession(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         int productId = Integer.parseInt(req.getParameter("productId"));
         int num = Integer.parseInt(req.getParameter("number"));
 
@@ -54,5 +54,6 @@ public class CartServlet extends BaseServlet {
         }
         writeJsonAsString(resp, result);
     }
+
 
 }

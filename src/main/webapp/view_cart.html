@@ -99,9 +99,9 @@
                         <h4 class="modal-title">您尚未登陆</h4>
                     </div>
                     <div class="modal-footer">
-                        <!--div class="form-group">
-                          <div id="formError" class="alert alert-danger"></div>
-                        </div>-->
+                        <div class="form-group">
+                            <div id="formError" class="alert alert-danger"></div>
+                        </div>
                         <div class="form-group">
                             <input type="text" name="mobile" id="mobile" value=""
                                    placeholder="请输入手机号" class="form-control input-lg">
@@ -142,41 +142,41 @@
                     //$("#cart-list").html(data.msg)
                     $(".panel-body").html("<h1 style='margin:0px auto'>"+data.msg+"</h1>");
                 }else{
-                   var contentHTML="";
-                   for(var i=0; i<data.data.length; i++){
-                       var cartitem = data.data[i];
-                       contentHTML+='<tr>\n' +
-                           '                        <td><input type="checkbox" name="ids" value="'+cartitem.product.id+'"/> </td>\n' +
-                           '                        <td style="width: 100px">\n' +
-                           '                            <a href="/product_detail.html?id='+cartitem.product.id+'">\n' +
-                           '                                <img src="/img/'+cartitem.product.thumbnail+'" title="" alt=""/>\n' +
-                           '                            </a>\n' +
-                           '                        </td>\n' +
-                           '                        <td class="text-left">\n' +
-                           '                            <a href="/product_detail.html?id='+cartitem.product.id+'" class="media-wrapper">\n' +
-                           '                                '+cartitem.product.name+'\n' +
-                           '                            </a>\n' +
-                           '                        <td style="width: 100px">\n' +
-                           '                            <div id="price">\n' +
-                           '                                '+cartitem.product.sale_price+'\n' +
-                           '                            </div>\n' +
-                           '                        </td>\n' +
-                           '                        <td style="width: 140px">\n' +
-                           '                            <div class="input-group">\n' +
-                           '                                <span class="input-group-addon" onclick="minus(this)"><i class="icon icon-minus"></i></span>\n' +
-                           '                                <input type="text"  name="amounts" id="amount" value="'+cartitem.number+'" class="form-control" style="text-align: center;"/>\n' +
-                           '                                <span class="input-group-addon" onclick="plus(this)"><i class="icon icon-plus"></i></span>\n' +
-                           '                            </div>\n' +
-                           '                        </td>\n' +
-                           '                        <td style="width: 160px" class="text-center text-middle">\n' +
-                           '                            <strong class="text-danger" id="sum">'+(cartitem.number*cartitem.product.sale_price)+'</strong>\n' +
-                           '                        </td>\n' +
-                           '                        <td style="width: 120px" class="text-middle text-center">\n' +
-                           '                            <a href="/removeFromCart?id=11" class="deleter">删除</a>\n' +
-                           '                        </td>\n' +
-                           '                    </tr>';
-                   }
-                   $("#cart-list").html(contentHTML);
+                    var contentHTML="";
+                    for(var i=0; i<data.data.length; i++){
+                        var cartitem = data.data[i];
+                        contentHTML+='<tr>\n' +
+                            '                        <td><input type="checkbox" name="ids" value="'+cartitem.product.id+'"/> </td>\n' +
+                            '                        <td style="width: 100px">\n' +
+                            '                            <a href="/product_detail.html?id='+cartitem.product.id+'">\n' +
+                            '                                <img src="/img/'+cartitem.product.thumbnail+'" title="" alt=""/>\n' +
+                            '                            </a>\n' +
+                            '                        </td>\n' +
+                            '                        <td class="text-left">\n' +
+                            '                            <a href="/product_detail.html?id='+cartitem.product.id+'" class="media-wrapper">\n' +
+                            '                                '+cartitem.product.name+'\n' +
+                            '                            </a>\n' +
+                            '                        <td style="width: 100px">\n' +
+                            '                            <div id="price">\n' +
+                            '                                '+cartitem.product.sale_price+'\n' +
+                            '                            </div>\n' +
+                            '                        </td>\n' +
+                            '                        <td style="width: 140px">\n' +
+                            '                            <div class="input-group">\n' +
+                            '                                <span class="input-group-addon" onclick="minus(this)"><i class="icon icon-minus"></i></span>\n' +
+                            '                                <input type="text"  name="amounts" id="amount" value="'+cartitem.number+'" class="form-control" style="text-align: center;"/>\n' +
+                            '                                <span class="input-group-addon" onclick="plus(this)"><i class="icon icon-plus"></i></span>\n' +
+                            '                            </div>\n' +
+                            '                        </td>\n' +
+                            '                        <td style="width: 160px" class="text-center text-middle">\n' +
+                            '                            <strong class="text-danger" id="sum">'+(cartitem.number*cartitem.product.sale_price)+'</strong>\n' +
+                            '                        </td>\n' +
+                            '                        <td style="width: 120px" class="text-middle text-center">\n' +
+                            '                            <a href="/removeFromCart?id=11" class="deleter">删除</a>\n' +
+                            '                        </td>\n' +
+                            '                    </tr>';
+                    }
+                    $("#cart-list").html(contentHTML);
 
                 }
 
@@ -185,7 +185,68 @@
             }
         })
 
+        //为结算按钮添加点击事件
+        $("#checkoutbutton").click(function(){
 
+            //发送请求判断用是否登陆
+            $.ajax({
+                url:"/member/getNickName",
+                success:function(data){     //{flag:  msg:  data:{会员信息}}
+                    if(data.data==null){
+                        //如果用户未登陆，则弹出登陆对话框
+                        $("#login").modal("show");
+                    }else{
+
+                        //获取需要结算的商品编号,并跳转到订单页面
+                        var ids=[];
+                        var amounts=[];
+                        for(var i=0;i< $("input[name='ids']").length; i++){
+                            if($("input[name='ids']")[i].checked==true){       //将选中的id和数量放到数组中
+                                ids.push($("input[name='ids']")[i].value);
+                                amounts.push($("input[name='amounts']")[i].value)
+                            }
+                        }
+
+                        //如果用户已登陆，则跳转到order_confirm.html;
+                        window.location.href="/order_confirm.html?ids="+ids+"&amounts="+amounts;
+
+                    }
+                }
+            })
+
+        });
+
+        //为登录按钮添加点击事件
+        $("#btn_login").click(function(){
+
+            //发送ajax进行登录操作
+            $.ajax({
+                url:"/member/login",
+                data:$("#loginForm").serialize(),
+                type:"post",
+                dataType:"json",
+                success:function(data){
+                    if(data.flag==true){
+                        //说明登陆成功，登陆成功后也跳转到order-confirm.html
+                        //获取需要结算的商品编号,并跳转到订单页面
+                        var ids=[];
+                        var amounts=[];
+                        for(var i=0;i< $("input[name='ids']").length; i++){
+                            if($("input[name='ids']")[i].checked==true){       //将选中的id和数量放到数组中
+                                ids.push($("input[name='ids']")[i].value);
+                                amounts.push($("input[name='amounts']")[i].value)
+                            }
+                        }
+                        window.location.href="/order_confirm.html?ids="+ids+"&amounts="+amounts;
+                    }else{
+                        alert(data.msg);
+                        //如果登录失败
+                        $("#formError").text(data.msg);
+                    }
+                }
+
+            })
+        })
     })
 </script>
 
@@ -201,7 +262,7 @@
         var countInput = $(component).prev('input'); //获取input元素
         var num = parseInt(countInput.val()) + 1; //获取input中的值并转化成整数再加上1
         countInput.val(num); //把值赋给input
-     change(countInput); //触发change事件
+        change(countInput); //触发change事件
 
     }
 
@@ -211,7 +272,7 @@
             return false;
         }
         countInput.val(parseInt(countInput.val()) - 1);
-      change(countInput); //触发change事件
+        change(countInput); //触发change事件
 
     }
 
